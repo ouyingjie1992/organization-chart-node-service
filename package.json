@@ -1,0 +1,27 @@
+{
+  "name": "organization-chart-node-service",
+  "version": "1.0.0",
+  "description": "organization-chart-node-service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev",
+    "start": "egg-scripts start --port=7001 --daemon --title=organization-chart-node-service",
+    "stop": "egg-scripts stop [--title=organization-chart-node-service]"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ouyingjie1992/organization-chart-node-service.git"
+  },
+  "author": "Ouyj (ouyingjie1992@qq.com)",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.22.2",
+    "egg-scripts": "^2.11.0",
+    "egg-view-nunjucks": "^2.2.0",
+    "mime-types": "^2.1.24"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.13.1"
+  }
+}
