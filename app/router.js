@@ -5,4 +5,5 @@ module.exports = app => {
         router.get('/imgToBase64/output', controller.imgToBase64.output);
     };
     router.get('/getIp/get', controller.getIp.get);
+    router.get('/sendEmail/start', controller.sendEmail.start);
 };

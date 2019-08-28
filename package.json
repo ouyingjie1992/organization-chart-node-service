@@ -19,7 +19,8 @@
     "egg": "^2.22.2",
     "egg-scripts": "^2.11.0",
     "egg-view-nunjucks": "^2.2.0",
-    "mime-types": "^2.1.24"
+    "mime-types": "^2.1.24",
+    "nodemailer": "^6.3.0"
   },
   "devDependencies": {
     "egg-bin": "^4.13.1"
